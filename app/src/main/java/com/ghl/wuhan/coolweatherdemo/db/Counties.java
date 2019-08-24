@@ -13,10 +13,10 @@ import org.litepal.crud.DataSupport;
  * 版本：
  */
 
-public class County extends DataSupport {
+public class Counties extends DataSupport {
     private int id;
     private String countyName;
-    private String wentherId;
+    private String weatherId;
     private int cityId;
 
     public int getId() {
@@ -35,13 +35,15 @@ public class County extends DataSupport {
         this.countyName = countyName;
     }
 
-    public String getWentherId() {
-        return wentherId;
+
+    public String getWeatherId() {
+        return weatherId;
     }
 
-    public void setWentherId(String wentherId) {
-        this.wentherId = wentherId;
+    public void setWeatherId(String weatherId) {
+        this.weatherId = weatherId;
     }
+
 
     public int getCityId() {
         return cityId;

@@ -5,6 +5,6 @@
     <list>
         <mapping class="com.ghl.wuhan.coolweatherdemo.db.Province"/>
         <mapping class="com.ghl.wuhan.coolweatherdemo.db.City"/>
-        <mapping class="com.ghl.wuhan.coolweatherdemo.db.County"/>
+        <mapping class="com.ghl.wuhan.coolweatherdemo.db.Counties"/>
     </list>
 </litepal>
